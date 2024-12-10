@@ -14,8 +14,9 @@
           with hive.blockTypes;
           with std.blockTypes;
           [
-            nixosConfigurations
             (functions "bee")
+            (functions "system")
+            nixosConfigurations
           ];
       }
       {
