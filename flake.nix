@@ -2,7 +2,7 @@
   outputs =
     { ... }@inputs:
     {
-      nixosConfigurations.experiment = inputs.nixpkgs.lib.nixosSystem {
+      nixosConfigurations.experiment = inputs.nixpkgs-stable.lib.nixosSystem {
         system = "x86_64-linux";
         modules = [
           (
