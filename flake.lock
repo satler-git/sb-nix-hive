@@ -363,22 +363,6 @@
         "type": "github"
       }
     },
-    "nixpkgs-unstable": {
-      "locked": {
-        "lastModified": 1733829609,
-        "narHash": "sha256-vBbFxQ2sdynbHiF1N2wT2W2qQb/4a5bI6sHUnZz38xg=",
-        "owner": "nixos",
-        "repo": "nixpkgs",
-        "rev": "ff6ad0470c31dc4cb45247edb30305661f27eb1d",
-        "type": "github"
-      },
-      "original": {
-        "owner": "nixos",
-        "ref": "master",
-        "repo": "nixpkgs",
-        "type": "github"
-      }
-    },
     "nosys": {
       "locked": {
         "lastModified": 1668010795,
@@ -504,10 +488,9 @@
       "inputs": {
         "hive": "hive",
         "nixpkgs": [
-          "nixpkgs-unstable"
+          "nixpkgs-stable"
         ],
         "nixpkgs-stable": "nixpkgs-stable",
-        "nixpkgs-unstable": "nixpkgs-unstable",
         "std": "std_2"
       }
     },
